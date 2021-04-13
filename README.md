@@ -1,6 +1,6 @@
 # New Relic Dashboard for Basic Users
 
-The new user model of New Relic has two kind of users, FULL and BASIC user. The big difference between FULL and BASIC user is that BASIC users can't see the curated view providing from New Relic One. This script creates SOME same curated graphs from New Relic APM for BASIC users in order to communicate FULL users.
+The new user model of New Relic has two kind of users, FULL and BASIC user. The big difference between FULL and BASIC user is that BASIC users can't see the curated view providing from New Relic One. This script creates the dashboards which have SOME same plots as FULL user's APM view.
 
 For example, APM menu for Full users:  
 <p align="center">
