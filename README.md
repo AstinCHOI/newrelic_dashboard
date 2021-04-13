@@ -23,7 +23,7 @@ $ python newrelic_dashboard.py
 New Relic account ID: xxxxxx
 New Relic API key: yyyyyy....
 ```
-- You can find your account ID and API key: one.newrelic.com > Top right power button > API keys  
+- You can find your account ID and API key: [one.newrelic.com](one.newrelic.com) > Top right power button > API keys  
 - The key type must be USER.
 - This script finds top 5 transactions' services for the last week then creates ~5 dashboards.
 
