@@ -4,12 +4,12 @@ The new user model of New Relic has two kind of users, FULL and BASIC user. The 
 
 For example, APM menu for Full users:  
 <p align="center">
-<img src="https://raw.githubusercontent.com/AstinCHOI/_newrelic_resources/main/newrelic_dashboard_fulluser.png" alt="Full User" width="700"/>
+<img src="https://raw.githubusercontent.com/AstinCHOI/_newrelic_resources/main/newrelic_dashboard_fulluser.png" alt="Full User" width="900"/>
 </p>
 
 Basic users don't have APM menu, so this script creates the APM dashboard which is able to import from New Relic One.
 <p align="center">
-<img src="https://raw.githubusercontent.com/AstinCHOI/_newrelic_resources/main/newrelic_dashboard_basicuser.png" alt="Basic User" width="700"/>
+<img src="https://raw.githubusercontent.com/AstinCHOI/_newrelic_resources/main/newrelic_dashboard_basicuser.png" alt="Basic User" width="900"/>
 </p>
 
 
