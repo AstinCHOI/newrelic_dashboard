@@ -1,6 +1,6 @@
 # New Relic Dashboard for Basic Users
 
-The new user model of New Relic has two kind of users, FULL and BASIC user. The big difference between FULL and BASIC user is that BASIC users can't see the curated menu providing from New Relic One. This script creates the dashboards which have SOME same plots as FULL user's APM view.
+The new user model of New Relic has two kind of users, FULL and BASIC user. The big difference between FULL and BASIC user is that BASIC users don't have the curated menu such as APM. This script creates a few dashboards which have SOME same plots as FULL user's APM view for Basic Users.
 
 For example, APM menu for Full users:  
 <p align="center">
@@ -23,7 +23,7 @@ $ python newrelic_dashboard.py
 New Relic account ID: xxxxxx
 New Relic API key: yyyyyy....
 ```
-- You can find your account ID and API key: [one.newrelic.com](one.newrelic.com) > Top right power button > API keys  
+- You can find your account ID and API key: [one.newrelic.com](one.newrelic.com) > Top right ⌽ button > API keys  
 - The key type must be USER.
 - This script finds top 5 transactions' services for the last week then creates ~5 dashboards.
 
@@ -32,3 +32,5 @@ New Relic API key: yyyyyy....
 #### New Relic GraphQL
 https://api.newrelic.com/graphiql
 
+#### New Relic Data Retention
+https://docs.newrelic.com/docs/telemetry-data-platform/ingest-manage-data/manage-data/manage-data-retention/#adjust-retention
